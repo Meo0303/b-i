@@ -19,7 +19,7 @@ public class PhongHocThiNghiem extends PhongHoc{
 	}
 	 @Override
 	    boolean kiemTraDatChuan() {
-	        return super.kiemTraDatChuan() && coBonRua;
+	        return coBonRua;
 	    }
 	}	
 

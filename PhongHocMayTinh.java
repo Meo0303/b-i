@@ -11,7 +11,7 @@ public class PhongHocMayTinh extends PhongHoc{
 		soLuongMayTinh = slmt;	
 	}
 	boolean kiemTraDatChuan() {
-		return super.kiemTraDatChuan() &&(dienTich / soLuongMayTinh >= 1.5);
-		
+		return dienTich / soLuongMayTinh >= 1.5;
+				
 	}
 }

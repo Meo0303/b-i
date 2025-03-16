@@ -21,23 +21,9 @@ public class PhongHoc {
 		
 		
 	}
-	 public int getMaPhong() { return maPhong; }
-	    public void setMaPhong(int maPhong) { this.maPhong = maPhong; }
-
-	    public String getDayNha() { return dayNha; }
-	    public void setDayNha(String dayNha) { this.dayNha = dayNha; }
-
-	    public double getDienTich() { return dienTich; }
-	    public void setDienTich(double dienTich) { this.dienTich = dienTich; }
-
-	    public int getSoBongDen() { return soBongDen; }
-	    public void setSoBongDen(int soBongDen) { this.soBongDen = soBongDen; }
-
-	    public Date getNgayHoatDong() { return ngayHoatDong; }
-	    public void setNgayHoatDong(Date ngayHoatDong) { this.ngayHoatDong = ngayHoatDong; }
-
+	
 	boolean kiemTraDatChuan() {
-	return (dienTich / soBongDen) >= 10; // Kiểm tra đủ ánh sáng (trung bình 10m²/bóng đèn)
+		return (dienTich / soBongDen) >= 10; // Kiểm tra đủ ánh sáng (trung bình 10m²/bóng đèn)
 
 	}
 	

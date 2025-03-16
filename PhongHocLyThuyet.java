@@ -14,6 +14,6 @@ public class PhongHocLyThuyet extends PhongHoc{
 	}
 	@Override
 	boolean kiemTraDatChuan() {
-	    return super.kiemTraDatChuan() && coMayChieu;//gọi lớp cha
+	    return  coMayChieu;//gọi lớp cha
 	}
 }
